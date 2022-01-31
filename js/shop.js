@@ -67,6 +67,8 @@ var total = 0;
 function buy(id) {
     // 1. Loop for to the array products to get the item to add to cart
     // 2. Add found product to the cartList array
+   
+
     var products  = document.querySelectorAll('.products')
     
     for( var i = 0; i <products.length; i+1) {
